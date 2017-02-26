@@ -65,8 +65,6 @@ exiting..
 #include <cmath>
 #include <string>
 
-//todo
-//error handling
 
 bool isLeapYear(int year);
 int getCenturyValue(int year);
@@ -84,12 +82,21 @@ int main(){
 	do {
 		getInput(dayDigits, monthDigits, yearDigits);
 		std::cout<<"\ndate: "<<dayDigits<<"/"<<monthDigits<<"/"<<yearDigits<<std::endl;
-		dayResult=getDayOfWeek(dayDigits, monthDigits, yearDigits);
 
-		std::cout<<"\nThe day of the week for that date is "<<dayResult<<std::endl;
+		if (dayDigits<=31&&monthDigits<=12&&yearDigits>0){
+			dayResult=getDayOfWeek(dayDigits, monthDigits, yearDigits);
 
-		std::cout<<"\nEnter y if you would like to repeat the program, any other key will exit \n";
-		std::cin>>repeat;
+			std::cout<<"\nThe day of the week for that date is "<<dayResult<<std::endl;
+
+			std::cout<<"\nEnter y if you would like to repeat the program, any other key will exit \n";
+			std::cin>>repeat;
+
+		}
+
+		else{
+			std::cout<<"\nInvalid entry, please try again\n";
+		}
+
 	}while(repeat =='y');
 
 	std::cout<<"exiting..\n";
