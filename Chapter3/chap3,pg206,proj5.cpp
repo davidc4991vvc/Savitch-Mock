@@ -31,51 +31,8 @@ Loan remaining: 19233.3
 Interest: 224.389
 principalPayment: 775.611
 Loan remaining: 18457.7
-Interest: 215.34
-principalPayment: 784.66
-Loan remaining: 17673.1
-Interest: 206.186
-principalPayment: 793.814
-Loan remaining: 16879.2
-Interest: 196.925
-principalPayment: 803.075
-Loan remaining: 16076.2
-Interest: 187.555
-principalPayment: 812.445
-Loan remaining: 15263.7
-Interest: 178.077
-principalPayment: 821.923
-Loan remaining: 14441.8
-Interest: 168.488
-principalPayment: 831.512
-Loan remaining: 13610.3
-Interest: 158.787
-principalPayment: 841.213
-Loan remaining: 12769.1
-Interest: 148.973
-principalPayment: 851.027
-Loan remaining: 11918.1
-Interest: 139.044
-principalPayment: 860.956
-Loan remaining: 11057.1
-Interest: 128.999
-principalPayment: 871.001
-Loan remaining: 10186.1
-Interest: 118.838
-principalPayment: 881.162
-Loan remaining: 9304.93
-Interest: 108.558
-principalPayment: 891.442
-Loan remaining: 8413.49
-Interest: 98.1574
-principalPayment: 901.843
-Loan remaining: 7511.65
-Interest: 87.6359
-principalPayment: 912.364
-Loan remaining: 6599.28
-Interest: 76.9916
-principalPayment: 923.008
-Loan remaining: 5676.28
+............
+
 Interest: 66.2232
 principalPayment: 933.777
 Loan remaining: 4742.5
